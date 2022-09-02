@@ -4,6 +4,7 @@
     list-style: none;
 }
 
+
 /* New Nabvar  */
 
 
@@ -15,7 +16,8 @@
     position: absolute;
     width: 100%;
     padding: 1% 0;
-    margin-top: 2%;
+    margin-left: -66%;
+
     
 
 }
@@ -62,12 +64,14 @@ hr
    border-style: none;
    border-top-style: solid;
    border-width: 1px;
-   width: 33%;
+   /* width: 33%; */
    color: #fff;
    position: absolute;
    margin-top:24px;
    z-index: 9999;
-   margin-left: 6.7%;
+   /* margin-left: 6.7%; */
+   width: 55%;
+   margin-left: 11%;
 
    
   
@@ -139,6 +143,7 @@ hr
     gap: 7%;
     justify-content: center;
     margin-top: 15%;
+    
 
 }
 
@@ -208,6 +213,17 @@ span
    
 }
 
+@media (max-width:1440px)and (min-width:921px){
+
+    .bg-color
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+    }
+
+}
 @media (max-width:1250px)and (min-width:921px){
 
     .d-flex 
@@ -216,13 +232,17 @@ span
         margin-left: 3%;
     }
 
-    
 }
 
 
 /* For tablet */
 
 @media (max-width:920px) {
+
+    .nabvar
+    {
+        margin-left: -42%;
+    }
 
     .flex-sub
     {
